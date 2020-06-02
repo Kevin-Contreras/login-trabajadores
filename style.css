@@ -1,0 +1,86 @@
+.boton{
+  width: 240px;
+  height: 30px;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 100px;
+  border: none;
+  
+
+}
+.boton:hover{
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+color:white;
+border-radius: 0;
+
+}
+#boton2:hover{
+  background: rgb(133, 9, 0);
+}
+#boton1:hover{
+  background: rgb(43, 134, 0);
+}
+#boton2{
+  right: -20px;
+  background: rgba(233, 31, 31, 0.952);
+
+
+}
+#boton1{
+  right: 300px;
+  background: rgba(52, 238, 52, 0.952);
+
+}
+.texto{
+  width: 250px;
+  height: 40px;
+  position:relative;
+  left: 150px;
+  bottom: -10px;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 13pt;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+.texto:hover{
+  background:white;
+  color:black;
+}
+#titulo:hover{
+color:rgba(54, 131, 233, 0.829);
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+#titulo{
+  text-align: center;
+  opacity: 0.9;
+  font-size: 30px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+.contenedor{
+  position:absolute;
+  right: 450px;
+  height: 600px;
+  width: 500px;
+}
+
+body{
+  background-image: radial-gradient(circle at 25.82% 116.45%, #ff6f72 0, #ff5e77 16.67%, #ff4d7a 33.33%, #f23c78 50%, #d42d74 66.67%, #b82371 83.33%, #a01d6e 100%);
+}
+p{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
